@@ -11,6 +11,14 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path:'home',
+    loadChildren: () => import('./home/home.module').then(m => m.HomePageModule)
+  },
+  {
+    path:'auth-panel',
+    loadChildren: () => import('./auth-panel/auth-panel.module').then(m => m.AuthPanelModule)
+  }
 ];
 
 @NgModule({
