@@ -1,0 +1,7 @@
+{
+  "name": "kissan-msp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
