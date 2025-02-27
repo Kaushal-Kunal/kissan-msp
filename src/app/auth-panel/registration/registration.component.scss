@@ -56,11 +56,18 @@ ion-content {
         }
     }
     .footer{
-        padding:2px 15px;
-        text-align: center;
+        height: 30px;
+         padding:2px 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         background-color: #fff;
         a{
-            text-decoration: none;
-        }
+                img{
+                    width: 30px;
+
+                }
+            }
+        
     }
 }
