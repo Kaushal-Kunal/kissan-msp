@@ -18,7 +18,8 @@ const routes: Routes = [
   {
     path:'auth-panel',
     loadChildren: () => import('./auth-panel/auth-panel.module').then(m => m.AuthPanelModule)
-  }
+  },
+ 
 ];
 
 @NgModule({
