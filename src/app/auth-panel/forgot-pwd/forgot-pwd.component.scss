@@ -18,7 +18,7 @@ ion-content {
         align-items: center;
         img{
             width: 200px;
-            height: 200px;
+            height: 180px;
         }
 
         p {
@@ -36,8 +36,9 @@ ion-content {
 
     .slide2 {
         width: 100%;
-        height: 54.5vh;
+        height: 57.5vh;
         padding: 30px;
+        overflow: auto;
         background-color: #fff;
         border-radius: 50px 50px 0px 0px;
         h1{
@@ -48,17 +49,17 @@ ion-content {
         }
         ion-button{
             width: 100%;
-            background: red;
+            --border-radius: 30px;
+            --background: rgb(176, 153, 153);
         }
         p{
             text-align: center ;
             a{
                 text-decoration: none;
+                color: #2e2828;
+                font-weight: bold;
             }
-        }
-        a{
-            text-align: center;
-        }     
+        }    
     }
     .footer{
         height: 30px;

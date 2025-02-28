@@ -1,13 +1,16 @@
 ion-content {
     --background: #d3e7e9;
-    .title{
-        padding:2px 15px;
+
+    .title {
+        padding: 2px 15px;
         text-align: center;
-        p{
+
+        p {
             font-size: 22px;
             font-weight: bold;
         }
     }
+
     .slide1 {
         width: 100%;
         height: 29.5vh;
@@ -15,59 +18,61 @@ ion-content {
         display: flex;
         justify-content: center;
         align-items: center;
-        p {
-            font-size: 38px;
-            color: #fff;
-            margin-bottom: 30px;
-        }
 
-        span {
-            font-size: 38px;
-            color: #fff;
-            margin-bottom: 20px; /* Optional spacing from bottom */
+        img {
+            width: 250px;
+            height: 200px;
         }
     }
 
     .slide2 {
         width: 100%;
-        height: auto;
+        height: 100vh;
         padding: 30px;
+        overflow: auto;
         background-color: #fff;
         border-radius: 50px 50px 0px 0px;
         overflow-y: scroll;
-        h1{
+
+        h1 {
             font-weight: bold;
         }
-        span{
+
+        span {
             float: right;
         }
-        ion-button{
+
+        ion-button {
             width: 100%;
-            background: red;
+            --border-radius: 30px;
+            --background: rgb(176, 153, 153);
         }
-        p{
-            text-align: center ;
-            a{
+
+        p {
+            text-align: center;
+
+            a {
                 text-decoration: none;
+                color: #2e2828;
+                font-weight: bold;
             }
         }
-        a{
-            text-align: center;
-        }
     }
-    .footer{
+
+    .footer {
         height: 30px;
-         padding:2px 15px;
+        padding: 2px 15px;
         display: flex;
         align-items: center;
         justify-content: center;
         background-color: #fff;
-        a{
-                img{
-                    width: 30px;
 
-                }
+        a {
+            img {
+                width: 30px;
+
             }
-        
+        }
+
     }
 }
