@@ -1,0 +1,10 @@
+{
+  "appId": "com.kissanmsp.app",
+  "appName": "kissan MSp",
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": false
+    }
+  }
+}
