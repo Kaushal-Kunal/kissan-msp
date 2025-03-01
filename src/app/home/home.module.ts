@@ -6,9 +6,9 @@ import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
 import { SuperAdminModule } from '../super-admin/super-admin.module';
-import { EmpListComponent } from './emp-list/emp-list.component';
-import { AccountComponent } from './account/account.component';
+import { EmpListComponent } from '../super-admin/emp-list/emp-list.component';
 import { AdminPanelModule } from '../admin-panel/admin-panel.module';
+import { ReportComponent } from '../super-admin/report/report.component';
 
 
 @NgModule({
@@ -22,9 +22,10 @@ import { AdminPanelModule } from '../admin-panel/admin-panel.module';
   
 
   ],
-  declarations: [HomePage
-  , EmpListComponent,
-  AccountComponent
+  declarations: [
+    HomePage, 
+    EmpListComponent,
+    ReportComponent
   ]
 })
 export class HomePageModule {}
