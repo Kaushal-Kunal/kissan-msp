@@ -7,11 +7,11 @@
   </div>
   <div class="slide2">
     <h1>Login</h1><br>
-    <ion-input label="Username" label-placement="floating" fill="outline" placeholder="Enter Email"></ion-input><br>
-    <ion-input label="Password" label-placement="floating" fill="outline" placeholder="Enter password"></ion-input><br>
+    <ion-input label="Username" label-placement="floating" fill="outline" placeholder="Enter Email" [(ngModel)]="username"></ion-input><br>
+    <ion-input label="Password" label-placement="floating" fill="outline" placeholder="Enter password" [(ngModel)]="password"></ion-input><br>
     <span><a routerLink="/auth-panel/forgot-pwd">Forgot Password?</a></span> <br><br>
-    <ion-button routerLink="/home/super-admin">Login</ion-button>
-    <p>Already haven't member yet? <a href="" routerLink="/auth-panel/registration">Sign Up</a></p>
+    <ion-button (click)="onSubmit()">Login</ion-button>
+    <p>Already haven't member yet? <a href=""  routerLink="/auth-panel/registration">Sign Up</a></p>
   </div>
   <div class="footer">
     Develop By:-<a href="https://macreel.co.in/"><img src="../../../assets/macreel-new-logo.png"></a>

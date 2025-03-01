@@ -8,22 +8,21 @@ const routes: Routes = [
   {
     path: '',
     component: HomePage,
-
     children:[
        {
           path:'super-admin',
           loadChildren: () => import('../super-admin/super-admin.module').then(m => m.SuperAdminModule)
         },
         {
-          path:'admin',
+          path:'admin-panel',
           loadChildren: () => import('../admin-panel/admin-panel.module').then(m => m.AdminPanelModule)
         },
         {
-          path:'employee',component:EmpListComponent
+          path:'employee-panel',
+          loadChildren: () => import('../employee-panel/employee-panel.module').then(m => m.EmployeePanelModule)
         },
-        {
-          path:'account',component:AccountComponent
-        }
+       
+      
     ]
   }
 ];

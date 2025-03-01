@@ -1,14 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { SuperAdminPanelComponent } from '../super-admin-panel/super-admin-panel.component';
+import { SuperAdminPanelComponent } from '../services/super-admin-panel/super-admin-panel.component';
 
 const routes: Routes = [
   {
     path:'',component:SuperAdminPanelComponent
-  },
-  {
-    path:'super-admin-panel',component:SuperAdminPanelComponent
-  }
+  }, 
 ];
 
 @NgModule({

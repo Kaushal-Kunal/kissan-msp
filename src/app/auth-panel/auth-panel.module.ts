@@ -8,6 +8,7 @@ import { RegistrationComponent } from './registration/registration.component';
 import { ForgotPwdComponent } from './forgot-pwd/forgot-pwd.component';
 import { VerifyOtpComponent } from './verify-otp/verify-otp.component';
 import { NewPwdComponent } from './new-pwd/new-pwd.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { NewPwdComponent } from './new-pwd/new-pwd.component';
   imports: [
     CommonModule,
     IonicModule,
-    AuthPanelRoutingModule
+    AuthPanelRoutingModule,
+    FormsModule
   ]
 })
 export class AuthPanelModule { }

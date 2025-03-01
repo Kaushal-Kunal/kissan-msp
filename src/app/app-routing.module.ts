@@ -19,6 +19,14 @@ const routes: Routes = [
     path:'auth-panel',
     loadChildren: () => import('./auth-panel/auth-panel.module').then(m => m.AuthPanelModule)
   },
+  {
+    path:'admin-panel',
+    loadChildren: () => import('./admin-panel/admin-panel.module').then(m => m.AdminPanelModule)
+  },
+  {
+    path:'employee-panel',
+    loadChildren: () => import('./employee-panel/employee-panel.module').then(m => m.EmployeePanelModule)
+  }
  
 ];
 

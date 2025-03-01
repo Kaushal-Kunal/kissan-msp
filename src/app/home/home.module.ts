@@ -8,6 +8,7 @@ import { HomePageRoutingModule } from './home-routing.module';
 import { SuperAdminModule } from '../super-admin/super-admin.module';
 import { EmpListComponent } from './emp-list/emp-list.component';
 import { AccountComponent } from './account/account.component';
+import { AdminPanelModule } from '../admin-panel/admin-panel.module';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { AccountComponent } from './account/account.component';
     IonicModule,
     HomePageRoutingModule,
     SuperAdminModule,
+    AdminPanelModule
   
 
   ],
