@@ -44,8 +44,8 @@ ion-content{
 
             }
             img{
-                width: auto;
-                height: auto;
+                width: 45px;
+                height: 40px;
                 border-radius: 50px;
             }
         }
@@ -70,17 +70,52 @@ ion-content{
         width: 100%;
         height: auto;
         display: flex;
-        margin-top: 10px;
         overflow-x: auto;
         overflow-y: hidden; 
         white-space: nowrap;
         gap: 0px;
         ion-card {
             min-width: 300px;
-            height: 18vh;
+            height: 16vh;
             border-radius: 20px;
             background-color: #f3f0ed;
+            .emp-list{
+                width: 100%;
+                height: 130px;
+                border-radius: 20px;
+                // margin-top: 20px;
+                display: flex;
+                padding:0px 10px;
+                box-shadow: 0px 4px 8px rgb(177, 174, 174); 
+                .emp-img{
+                    width: 150px;
+                    height: 100%;
+                    border-radius: 50px;
+                    margin: 13px;
+        
+                    img{
+                        width: 80px;
+                        height: 80px;
+                        border-radius: 50px;
+                    }
+                }
+                .emp-name{
+                    width: 100%;
+                    height: 20vh;
+                    padding:0px 10px;
+                    line-height: 25px;
+                }
+                b{
+                    font-size: 15px;
+                }
+                span{
+                    font-size: 12px;
+                    font-family: Helvetica;
+                    color: rgb(52, 133, 106);
+                }
+            }
         }
+        
     }
     // .footer{
     //     width: 100%;

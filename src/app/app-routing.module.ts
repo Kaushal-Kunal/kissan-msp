@@ -11,10 +11,10 @@ const routes: Routes = [
     redirectTo: 'auth-panel',
     pathMatch: 'full'
   },
-  {
-    path:'home',
-    loadChildren: () => import('./home/home.module').then(m => m.HomePageModule)
-  },
+  // {
+  //   path:'home',
+  //   loadChildren: () => import('./home/home.module').then(m => m.HomePageModule)
+  // },
   {
     path:'auth-panel',
     loadChildren: () => import('./auth-panel/auth-panel.module').then(m => m.AuthPanelModule)

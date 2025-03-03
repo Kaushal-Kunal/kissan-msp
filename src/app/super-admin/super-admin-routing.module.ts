@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { SuperAdminPanelComponent } from './super-admin-panel/super-admin-panel.component';
 import { ReportComponent } from './report/report.component';
 import { EmpListComponent } from './emp-list/emp-list.component';
+import { ProfileComponent } from './profile/profile.component';
 
 const routes: Routes = [
   {
@@ -13,6 +14,9 @@ const routes: Routes = [
       },
       {
         path:'emp-list',component:EmpListComponent
+      },
+      {
+        path:'profile',component:ProfileComponent
       }
     ],
   }, 
