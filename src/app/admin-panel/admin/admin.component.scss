@@ -1,8 +1,6 @@
 ion-content{
-    .search{
-        ion-search{
-            border-radius: 50px;
-        }
+    ion-searchbar{
+        --border-radius: 50px;
     }
     .banner{
         width: 100%;
