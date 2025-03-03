@@ -15,11 +15,12 @@ const routes: Routes = [
       {
         path:'emp-list',component:EmpListComponent
       },
-      {
-        path:'profile',component:ProfileComponent
-      }
+    
     ],
-  }, 
+  },
+  {
+    path:'profile',component:ProfileComponent
+  } 
 ];
 
 @NgModule({

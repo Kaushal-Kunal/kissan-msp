@@ -26,7 +26,7 @@ const routes: Routes = [
   {
     path:'employee-panel',
     loadChildren: () => import('./employee-panel/employee-panel.module').then(m => m.EmployeePanelModule)
-  }
+  },
  
 ];
 
