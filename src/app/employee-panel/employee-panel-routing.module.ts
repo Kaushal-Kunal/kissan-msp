@@ -4,6 +4,7 @@ import { EmployeeComponent } from './employee/employee.component';
 import { MemberListComponent } from './member-list/member-list.component';
 import { EmpProfileComponent } from './emp-profile/emp-profile.component';
 import { MemberRegComponent } from './member-reg/member-reg.component';
+import { EmpReportComponent } from './emp-report/emp-report.component';
 
 const routes: Routes = [
   {
@@ -12,6 +13,9 @@ const routes: Routes = [
       {
         path:'member-list',component:MemberListComponent,
       },
+      {
+        path:'emp-report',component:EmpReportComponent
+      }
     ],
   },
   {

@@ -7,6 +7,7 @@ import { MemberListComponent } from './member-list/member-list.component';
 import { EmployeeComponent } from './employee/employee.component';
 import { EmpProfileComponent } from './emp-profile/emp-profile.component';
 import { MemberRegComponent } from './member-reg/member-reg.component';
+import { EmpReportComponent } from './emp-report/emp-report.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { MemberRegComponent } from './member-reg/member-reg.component';
     MemberListComponent,
     EmployeeComponent,
     EmpProfileComponent,
-    MemberRegComponent
+    MemberRegComponent,
+    EmpReportComponent
   ],
   imports: [
     CommonModule,
