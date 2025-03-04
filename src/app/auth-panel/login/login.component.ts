@@ -22,13 +22,13 @@ export class LoginComponent  implements OnInit {
     console.log("pass name ", this.password);
 
     if(this.username == "superadmin"){
-      this._router.navigate(['/home/super-admin'])
+      this._router.navigate(['/super-admin'])
     } 
     else if(this.username == 'admin'){
-      this._router.navigate(['/home/admin-panel'])
+      this._router.navigate(['/admin-panel'])
     }
     else if(this.username=="employee"){
-      this._router.navigate(['/home/employee-panel'])
+      this._router.navigate(['/employee-panel'])
     }
     
    }

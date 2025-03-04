@@ -4,17 +4,22 @@ import { SuperAdminPanelComponent } from './super-admin-panel/super-admin-panel.
 import { ReportComponent } from './report/report.component';
 import { EmpListComponent } from './emp-list/emp-list.component';
 import { ProfileComponent } from './profile/profile.component';
+import { SuperAdminHomeComponent } from './super-admin-home/super-admin-home.component';
 
 const routes: Routes = [
   {
     path:'',component:SuperAdminPanelComponent,
     children:[
+    
       {
         path:'report',component:ReportComponent
       },
       {
         path:'emp-list',component:EmpListComponent
       },
+      {
+        path:'super-admin-home',component:SuperAdminHomeComponent
+      }
     
     ],
   },

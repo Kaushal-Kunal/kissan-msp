@@ -1,6 +1,6 @@
 {
   "appId": "com.kissanmsp.app",
-  "appName": "kissan MSp",
+  "appName": "kissan MSP",
   "webDir": "dist",
   "plugins": {
     "SplashScreen": {

@@ -1,145 +1,202 @@
-<ion-content>
-  <ion-searchbar placeholder="Search..."></ion-searchbar>
-  <div class="banner">
-      <img src="../../assets/politics.jpg">
-  </div>
-  <div class="new-member">
-      <p>Our Officers</p>
-      <p>See all</p>
+<ion-tabs>
+  <ion-tab tab="home">
+    <div id="home-page">
+      <ion-header>
+        <ion-toolbar>
+          <ion-title>Pankaj Verma</ion-title>
+          <ion-icon name="person-circle-outline" slot="end" style="padding-right: 20px; font-size: 22px;" routerLink="/super-admin/profile"></ion-icon>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content>
+        <ion-searchbar placeholder="Search..."></ion-searchbar>
+        <div class="banner">
+          <img src="../../assets/politics.jpg">
+        </div>
+        <div class="new-member">
+          <p>Our Officers</p>
+          <p>See all</p>
+        </div>
+        <div class="member-container">
+          <ion-card color="light">
+            <div class="emp-list">
+              <div class="emp-img">
+                <img src="../../../assets/profile1.jpg">
+              </div>
+              <div class="emp-name">
+                <b>Sandeep Kashyap</b><br>
+                <span>Address:-Noida</span><br>
+                <span>Pin-code:-804127</span><br>
+                <span>Designation:-Dsp</span>
+              </div>
+            </div>
+          </ion-card>
+          <ion-card color="light">
+            <div class="emp-list">
+              <div class="emp-img">
+                <img src="../../../assets/profile2.jpg">
+              </div>
+              <div class="emp-name">
+                <b>Pankaj Verma</b><br>
+                <span>Address:-Faridabad</span><br>
+                <span>Pin-code:-845123</span><br>
+                <span>Designation:-S.P</span>
+              </div>
+            </div>
+          </ion-card>
+          <ion-card color="light">
+            <div class="emp-list">
+              <div class="emp-img">
+                <img src="../../../assets/profile3.jpg">
+              </div>
+              <div class="emp-name">
+                <b>Shivam Singh</b><br>
+                <span>Address:-Gurgram</span><br>
+                <span>Pin-code:-844532</span><br>
+                <span>Designation:-B.D.O</span>
+              </div>
+            </div>
+          </ion-card>
+          <ion-card color="light">
+            <div class="emp-list">
+              <div class="emp-img">
+                <img src="../../../assets/profile4.jpg">
+              </div>
+              <div class="emp-name">
+                <b>Amit Verma</b><br>
+                <span>Address:-Sheenbag</span><br>
+                <span>Pin-code:-844344</span><br>
+                <span>Designation:-Abc</span>
+              </div>
+            </div>
+          </ion-card>
+        </div>
+        <div class="new-member" routerLink="/emp-list">
+          <p>Our Employee</p>
+          <p>See all</p>
+        </div>
+        <div class="member-container">
+          <ion-card color="light">
+            <div class="emp-list">
+              <div class="emp-img">
+                <img src="../../../assets/profile5.jpg">
+              </div>
+              <div class="emp-name">
+                <b>Amit Verma</b><br>
+                <span>Address:-Sheenbag</span><br>
+                <span>Pin-code:-844344</span><br>
+                <span>Designation:-Abc</span>
+              </div>
+            </div>
+          </ion-card>
+          <ion-card color="light">
+            <div class="emp-list">
+              <div class="emp-img">
+                <img src="../../../assets/profile6.jpg">
+              </div>
+              <div class="emp-name">
+                <b>Shivam Singh</b><br>
+                <span>Address:-Gurgram</span><br>
+                <span>Pin-code:-844532</span><br>
+                <span>Designation:-B.D.O</span>
+              </div>
+            </div>
+          </ion-card>
+          <ion-card color="light">
+            <div class="emp-list">
+              <div class="emp-img">
+                <img src="../../../assets/profile1.jpg">
+              </div>
+              <div class="emp-name">
+                <b>Sandeep Kashyap</b><br>
+                <span>Address:-Noida</span><br>
+                <span>Pin-code:-844120</span><br>
+                <span>Designation:-Teacher</span>
+              </div>
+            </div>
+          </ion-card>
+          <ion-card color="light">
+            <div class="emp-list">
+              <div class="emp-img">
+                <img src="../../../assets/profile2.jpg">
+              </div>
+              <div class="emp-name">
+                <b>Sandeep Kashyap</b><br>
+                <span>Address:-Noida</span><br>
+                <span>Pin-code:-844120</span><br>
+                <span>Designation:-Teacher</span>
+              </div>
+            </div>
+          </ion-card>
+        </div>
+        <div class="total-member">
+          <ion-card color="light">
+            <ion-card-header>
+              <ion-card-title>Officers</ion-card-title>
+              <ion-card-subtitle>15000</ion-card-subtitle>
+            </ion-card-header>
+            <!-- <ion-card-content> Card Content </ion-card-content> -->
+          </ion-card>
+          <ion-card color="light">
+            <ion-card-header>
+              <ion-card-title>Employess</ion-card-title>
+              <ion-card-subtitle>10000</ion-card-subtitle>
+            </ion-card-header>
+            <!-- <ion-card-content> Card Content </ion-card-content> -->
+          </ion-card>
+          <ion-card color="light">
+            <ion-card-header>
+              <ion-card-title>Member</ion-card-title>
+              <ion-card-subtitle>100000</ion-card-subtitle>
+            </ion-card-header>
+            <!-- <ion-card-content> Card Content </ion-card-content> -->
+          </ion-card>
+        </div>
+
+
+      </ion-content>
     </div>
-    <div class="member-container">
-      <ion-card color="light">
-        <div class="emp-list">
-          <div class="emp-img">
-              <img src="../../../assets/profile1.jpg">
-          </div>
-          <div class="emp-name">
-              <b>Sandeep Kashyap</b><br>
-              <span>Address:-Noida</span><br>
-              <span>Pin-code:-804127</span><br>
-              <span>Designation:-Dsp</span>
-          </div>
-      </div>
-      </ion-card>
-      <ion-card color="light">
-        <div class="emp-list">
-          <div class="emp-img">
-              <img src="../../../assets/profile2.jpg">
-          </div>
-          <div class="emp-name">
-              <b>Pankaj Verma</b><br>
-              <span>Address:-Faridabad</span><br>
-              <span>Pin-code:-845123</span><br>
-              <span>Designation:-S.P</span>
-          </div>
-      </div>
-      </ion-card>
-      <ion-card color="light">
-        <div class="emp-list">
-          <div class="emp-img">
-              <img src="../../../assets/profile3.jpg">
-          </div>
-          <div class="emp-name">
-              <b>Shivam Singh</b><br>
-              <span>Address:-Gurgram</span><br>
-              <span>Pin-code:-844532</span><br>
-              <span>Designation:-B.D.O</span>
-          </div>
-      </div>
-      </ion-card>
-      <ion-card color="light">
-        <div class="emp-list">
-          <div class="emp-img">
-              <img src="../../../assets/profile4.jpg">
-          </div>
-          <div class="emp-name">
-              <b>Amit Verma</b><br>
-              <span>Address:-Sheenbag</span><br>
-              <span>Pin-code:-844344</span><br>
-              <span>Designation:-Abc</span>
-          </div>
-      </div>
-      </ion-card>
+  </ion-tab>
+  <ion-tab tab="radio">
+    <div id="radio-page">
+      <ion-header>
+        <ion-toolbar>
+          <ion-title>Pankaj Verma</ion-title>
+          <ion-icon name="person-circle-outline" slot="end" style="padding-right: 20px; font-size: 22px;" routerLink="/super-admin/profile"></ion-icon>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content>
+        <app-emp-list></app-emp-list>
+      </ion-content>
     </div>
-    <div class="new-member">
-      <p>Our Employee</p>
-      <p>See all</p>
+  </ion-tab>
+  <ion-tab tab="library">
+    <div id="library-page">
+      <ion-header>
+        <ion-toolbar>
+          <ion-title>Pankaj Verma</ion-title>
+          <ion-icon name="person-circle-outline" slot="end" style="padding-right: 20px; font-size: 22px;" routerLink="/super-admin/profile"></ion-icon>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content>
+       <app-report></app-report>
+      </ion-content>
     </div>
-    <div class="member-container">
-      <ion-card color="light">
-        <div class="emp-list">
-          <div class="emp-img">
-              <img src="../../../assets/profile5.jpg">
-          </div>
-          <div class="emp-name">
-            <b>Amit Verma</b><br>
-            <span>Address:-Sheenbag</span><br>
-            <span>Pin-code:-844344</span><br>
-            <span>Designation:-Abc</span>
-          </div>
-      </div>
-      </ion-card>
-      <ion-card color="light">
-        <div class="emp-list">
-          <div class="emp-img">
-              <img src="../../../assets/profile6.jpg">
-          </div>
-          <div class="emp-name">
-               <b>Shivam Singh</b><br>
-              <span>Address:-Gurgram</span><br>
-              <span>Pin-code:-844532</span><br>
-              <span>Designation:-B.D.O</span>
-          </div>
-      </div>
-      </ion-card>
-      <ion-card color="light">
-        <div class="emp-list">
-          <div class="emp-img">
-              <img src="../../../assets/profile1.jpg">
-          </div>
-          <div class="emp-name">
-              <b>Sandeep Kashyap</b><br>
-              <span>Address:-Noida</span><br>
-              <span>Pin-code:-844120</span><br>
-              <span>Designation:-Teacher</span>
-          </div>
-      </div>
-      </ion-card>
-      <ion-card color="light">
-        <div class="emp-list">
-          <div class="emp-img">
-              <img src="../../../assets/profile2.jpg">
-          </div>
-          <div class="emp-name">
-              <b>Sandeep Kashyap</b><br>
-              <span>Address:-Noida</span><br>
-              <span>Pin-code:-844120</span><br>
-              <span>Designation:-Teacher</span>
-          </div>
-      </div>
-      </ion-card>
-    </div>
-    <div class="total-member">
-      <ion-card color="light">
-        <ion-card-header>
-          <ion-card-title>Officers</ion-card-title>
-          <ion-card-subtitle>15000</ion-card-subtitle>
-        </ion-card-header>
-        <!-- <ion-card-content> Card Content </ion-card-content> -->
-      </ion-card>
-      <ion-card color="light">
-        <ion-card-header>
-          <ion-card-title>Employess</ion-card-title>
-          <ion-card-subtitle>10000</ion-card-subtitle>
-        </ion-card-header>
-        <!-- <ion-card-content> Card Content </ion-card-content> -->
-      </ion-card>
-      <ion-card color="light">
-          <ion-card-header>
-            <ion-card-title>Member</ion-card-title>
-            <ion-card-subtitle>100000</ion-card-subtitle>
-          </ion-card-header>
-          <!-- <ion-card-content> Card Content </ion-card-content> -->
-        </ion-card>
-    </div>
-</ion-content>
+  </ion-tab>
+ 
+
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="home">
+      <ion-icon name="home-outline"></ion-icon>
+      Home
+    </ion-tab-button>
+    <ion-tab-button tab="radio">
+      <ion-icon name="people-outline"></ion-icon>
+      Employee
+    </ion-tab-button>
+    <ion-tab-button tab="library">
+      <ion-icon name="bag-outline"></ion-icon>
+      Report
+    </ion-tab-button>
+   
+  </ion-tab-bar>
+</ion-tabs>

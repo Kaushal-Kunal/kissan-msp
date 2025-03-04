@@ -6,16 +6,10 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { SuperAdminPanelComponent } from './super-admin/super-admin-panel/super-admin-panel.component';
-import { AdminComponent } from './admin-panel/admin/admin.component';
-import { EmployeeComponent } from './employee-panel/employee/employee.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SuperAdminPanelComponent,
-    AdminComponent,
-    EmployeeComponent,
   ],
   imports: [
     BrowserModule, 
