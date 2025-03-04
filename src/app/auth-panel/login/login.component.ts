@@ -30,6 +30,9 @@ export class LoginComponent  implements OnInit {
     else if(this.username=="employee"){
       this._router.navigate(['/employee-panel'])
     }
+    else if(this.username=="member"){
+      this._router.navigate(['/member-panel'])
+    }
     
    }
 }

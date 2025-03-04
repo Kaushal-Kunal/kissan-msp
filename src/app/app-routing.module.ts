@@ -24,9 +24,10 @@ const routes: Routes = [
     path:'employee-panel',
     loadChildren: () => import('./employee-panel/employee-panel.module').then(m => m.EmployeePanelModule)
   },
-
-
- 
+  {
+    path:'member-panel',
+    loadChildren: () => import('./member-panel/member-panel.module').then(m => m.MemberPanelModule)
+  }
 ];
 
 @NgModule({

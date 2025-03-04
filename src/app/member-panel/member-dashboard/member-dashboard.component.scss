@@ -1,0 +1,118 @@
+ion-content{
+    height: calc(100vh - 120px);
+    ion-searchbar{
+        --border-radius: 30px;
+    }
+    .banner{
+        width: 100%;
+        height: 25vh;
+        margin-top: 10px;
+        border-radius: 20px;   
+        img{
+            width: 100%;
+            height: 25vh;
+            padding: 10px;
+            border-radius: 20px;
+        }
+    }
+    .new-member{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        padding:0px 10px;
+        p{
+            font-size: 14px;
+        }
+    }
+    .recent-member{
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin-top: 10px;
+        overflow-x: auto;
+        padding:0px 10px;
+        overflow-y: hidden; 
+        white-space: nowrap;
+        gap: 10px;
+        .member{
+            width: 50px;
+            height: 45px;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:  #f3f0ed;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+            ion-icon{
+                font-size: 38px;
+
+            }
+            img{
+                width: 45px;
+                height: 40px;
+                border-radius: 50px;
+            }
+        }
+    }
+    .member-container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        overflow-x: auto;
+        overflow-y: hidden; 
+        white-space: nowrap;
+        gap: 0px;
+        ion-card {
+            min-width: 300px;
+            height: 16vh;
+            border-radius: 20px;
+            background-color: #f3f0ed;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease-in-out;
+            &:hover {
+                transform: translateY(-5px);
+            }
+            .emp-list{
+                width: 100%;
+                height: 130px;
+                border-radius: 20px;
+                // margin-top: 20px;
+                display: flex;
+                padding:0px 10px;
+                box-shadow: 0px 4px 8px rgb(177, 174, 174); 
+                .emp-img{
+                    width: 150px;
+                    height: 100%;
+                    border-radius: 50px;
+                    margin: 13px;
+        
+                    img{
+                        width: 80px;
+                        height: 80px;
+                        border-radius: 50px;
+                    }
+                }
+                .emp-name{
+                    width: 100%;
+                    height: 20vh;
+                    padding:0px 10px;
+                    line-height: 25px;
+                }
+                b{
+                    font-size: 15px;
+                }
+                span{
+                    font-size: 12px;
+                    font-family: Helvetica;
+                    color: rgb(52, 133, 106);
+                }
+            }
+        }  
+    }
+}
