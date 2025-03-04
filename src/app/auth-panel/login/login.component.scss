@@ -55,7 +55,8 @@ ion-content {
         ion-button {
             width: 100%;
             --border-radius: 30px;
-            --background: rgb(176, 153, 153);
+            --background: linear-gradient(to right, #28a745, #218838);
+
         }
 
         p {
