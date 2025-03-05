@@ -1,7 +1,7 @@
 ion-content {
     width: 100%;
     height: auto;
-    --background: #d3e7e9;
+    --background: linear-gradient(to right, #7cca8f, #6cc07e);
 
     .title {
         width: 100%;
@@ -15,6 +15,7 @@ ion-content {
             font-weight: bold;
             position:absolute;
             margin-left: 60px;
+            color: #fff;
         }
     }
 

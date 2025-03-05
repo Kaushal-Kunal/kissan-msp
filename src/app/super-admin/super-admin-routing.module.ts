@@ -5,6 +5,9 @@ import { ReportComponent } from './report/report.component';
 import { EmpListComponent } from './emp-list/emp-list.component';
 import { ProfileComponent } from './profile/profile.component';
 import { SuperAdminHomeComponent } from './super-admin-home/super-admin-home.component';
+import { UpdatePwdComponent } from './update-pwd/update-pwd.component';
+import { ViewProfileComponent } from './view-profile/view-profile.component';
+import { MemberListComponent } from './member-list/member-list.component';
 
 const routes: Routes = [
   {
@@ -18,6 +21,9 @@ const routes: Routes = [
         path:'emp-list',component:EmpListComponent
       },
       {
+        path:'member-list',component:MemberListComponent
+      },
+      {
         path:'super-admin-home',component:SuperAdminHomeComponent
       }
     
@@ -25,6 +31,12 @@ const routes: Routes = [
   },
   {
     path:'profile',component:ProfileComponent
+  },
+  {
+    path:'update-pwd',component:UpdatePwdComponent
+  },
+  {
+    path:'view-profile',component:ViewProfileComponent
   } 
 ];
 

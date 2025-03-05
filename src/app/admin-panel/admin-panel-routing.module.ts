@@ -6,6 +6,11 @@ import { EmpListComponent } from './emp-list/emp-list.component';
 import { AdminHomeComponent } from './admin-home/admin-home.component';
 import { AdminProfileComponent } from './admin-profile/admin-profile.component';
 import { AdminReportComponent } from './admin-report/admin-report.component';
+import { UpdatePwdComponent } from './update-pwd/update-pwd.component';
+import { ViewProfileComponent } from './view-profile/view-profile.component';
+import { MemberDashboardComponent } from '../member-panel/member-dashboard/member-dashboard.component';
+import { MemberListComponent } from './member-list/member-list.component';
+import { MemberRegComponent } from './member-reg/member-reg.component';
 
 const routes: Routes = [
   {
@@ -13,6 +18,9 @@ const routes: Routes = [
     children:[
       {
         path: 'emp-list', component: EmpListComponent
+      },
+      {
+        path: 'member-list', component: MemberListComponent
       },
       {
         path:'admin-report', component:AdminReportComponent
@@ -23,7 +31,16 @@ const routes: Routes = [
     path:'reg-form',component:RegFormComponent
   },
   {
+    path:'member-reg',component:MemberRegComponent
+  },
+  {
     path:'admin-profile',component: AdminProfileComponent
+  },
+  {
+    path:'update-pwd',component:UpdatePwdComponent
+  },
+  {
+    path:'view-profile',component:ViewProfileComponent
   }
 ];
 

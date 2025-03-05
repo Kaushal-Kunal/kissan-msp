@@ -8,6 +8,8 @@ import { MembersComponent } from './members/members.component';
 import { MemberReportComponent } from './member-report/member-report.component';
 import { MemberProfileComponent } from './member-profile/member-profile.component';
 import { MemberRegComponent } from './member-reg/member-reg.component';
+import { UpdatePwdComponent } from './update-pwd/update-pwd.component';
+import { ViewProfileComponent } from './view-profile/view-profile.component';
 
 
 @NgModule({
@@ -16,7 +18,9 @@ import { MemberRegComponent } from './member-reg/member-reg.component';
     MembersComponent,
     MemberReportComponent,
     MemberProfileComponent,
-    MemberRegComponent
+    MemberRegComponent,
+    UpdatePwdComponent,
+    ViewProfileComponent
   ],
   imports: [
     CommonModule,

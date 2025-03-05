@@ -8,6 +8,9 @@ import { SuperAdminPanelComponent } from './super-admin-panel/super-admin-panel.
 import { EmpListComponent } from './emp-list/emp-list.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ReportComponent } from './report/report.component';
+import { UpdatePwdComponent } from './update-pwd/update-pwd.component';
+import { ViewProfileComponent } from './view-profile/view-profile.component';
+import { MemberListComponent } from './member-list/member-list.component';
 
 
 @NgModule({
@@ -16,7 +19,10 @@ import { ReportComponent } from './report/report.component';
     SuperAdminPanelComponent,
     EmpListComponent,
     ProfileComponent,
-    ReportComponent
+    ReportComponent,
+    UpdatePwdComponent,
+    ViewProfileComponent,
+    MemberListComponent
   ],
   imports: [
     CommonModule,

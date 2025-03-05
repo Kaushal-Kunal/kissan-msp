@@ -9,6 +9,10 @@ import { AdminComponent } from './admin/admin.component';
 import { IonicModule } from '@ionic/angular';
 import { AdminProfileComponent } from './admin-profile/admin-profile.component';
 import { AdminReportComponent } from './admin-report/admin-report.component';
+import { UpdatePwdComponent } from './update-pwd/update-pwd.component';
+import { ViewProfileComponent } from './view-profile/view-profile.component';
+import { MemberListComponent } from './member-list/member-list.component';
+import { MemberRegComponent } from './member-reg/member-reg.component';
 
 
 @NgModule({
@@ -18,7 +22,11 @@ import { AdminReportComponent } from './admin-report/admin-report.component';
     EmpListComponent,
     RegFormComponent,
     AdminProfileComponent,
-    AdminReportComponent
+    AdminReportComponent,
+    UpdatePwdComponent,
+    ViewProfileComponent,
+    MemberListComponent,
+    MemberRegComponent
   ],
   imports: [
     CommonModule,

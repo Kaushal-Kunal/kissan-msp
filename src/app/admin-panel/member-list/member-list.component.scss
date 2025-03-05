@@ -1,0 +1,70 @@
+ion-content{
+    ion-searchbar{
+        --border-radius:50px
+    }
+    .add{
+        padding: 0px 10px;
+        .add-member{
+            width: 100%;
+            height: 50px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 20px;
+            background-color: #f3f0ed;
+            ion-icon{
+                font-size: 28px;
+                display: flex;
+                justify-content: space-around;
+            }
+        }
+    }
+    .employees{
+        padding: 0px 10px;
+        .emp-list{
+            width: 100%;
+            height: 130px;
+            border-radius: 20px;
+            margin-top: 10px;
+            display: flex;
+            padding:0px 10px;
+            background-color: #f3f0ed;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease-in-out;
+
+            &:hover {
+                transform: translateY(-5px);
+            }
+            .emp-img{
+                width: 150px;
+                height: 100%;
+                border-radius: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+    
+                img{
+                    width: 150px;
+                    height: 100px;
+                    border-radius: 50px;
+                    object-fit: cover;
+                }
+            }
+            .emp-name{
+                width: 100%;
+                height: 20vh;
+                padding: 10px;
+                line-height: 25px;
+            }
+            b{
+                font-size: 15px;
+            }
+            span{
+                font-size: 12px;
+                font-family: Helvetica;
+                color: rgb(52, 133, 106);
+            }
+        }
+    }
+    }

@@ -5,6 +5,8 @@ import { MemberProfileComponent } from './member-profile/member-profile.componen
 import { MembersComponent } from './members/members.component';
 import { MemberReportComponent } from './member-report/member-report.component';
 import { MemberRegComponent } from './member-reg/member-reg.component';
+import { UpdatePwdComponent } from './update-pwd/update-pwd.component';
+import { ViewProfileComponent } from './view-profile/view-profile.component';
 
 const routes: Routes = [
   {
@@ -23,6 +25,12 @@ const routes: Routes = [
   },
   {
     path:'member-reg',component:MemberRegComponent
+  },
+  {
+    path:'update-pwd',component:UpdatePwdComponent
+  },
+  {
+    path:'view-profile',component:ViewProfileComponent
   }
 ];
 
