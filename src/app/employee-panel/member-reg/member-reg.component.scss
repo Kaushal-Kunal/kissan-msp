@@ -54,7 +54,9 @@ ion-content {
     h1 {
         font-weight: bold;
     }
-
+    ion-input{
+        --highlight-color-focused: #28a745;
+    }
     ion-button {
         width: 100%;
         --border-radius: 30px;

@@ -16,14 +16,16 @@ ion-content {
         font-size: 18px;
         font-weight: bold;
         margin-left: 10px;
+        color: #fff;
     }
 
     p {
-        font-size: 20px;
-        font-weight: bold;
+        font-size: 18px;
+        // font-weight: bold;
         margin-left: 20px;
         text-align: center;
         flex-grow: 1;
+        color: #fff;
     }
 }
 
@@ -53,6 +55,9 @@ ion-content {
 
     h1 {
         font-weight: bold;
+    }
+    ion-input{
+        --highlight-color-focused: #28a745;
     }
 
     ion-button {

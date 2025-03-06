@@ -26,11 +26,13 @@ ion-content{
   }
     .account-section{
         width: 100%;
-        height: auto;
+        min-height: calc(100vh - 30vh);
         padding: 0px 15px;
         background-color:#fff;
         margin-top: 20vh;
+        transition: all 0.3s ease-in-out;
         border-radius: 40px 40px 0px 0px;
+        
         .image-container {
             width: 200px;
             text-align: center;

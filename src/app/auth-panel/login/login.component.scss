@@ -1,7 +1,7 @@
 ion-content {
     width: 100%;
     height: 100vh;
-    padding: 10px;
+    margin-top: 25px;
     --background: linear-gradient(to right, #7cca8f, #6cc07e);
 
     .title {
@@ -37,10 +37,11 @@ ion-content {
     .slide2 {
         width: 100%;
         height: 56vh;
-        padding:5px 30px;
-        overflow: auto;
+        padding: 5px 30px;
+        overflow-y: auto;
         background-color: #fff;
         border-radius: 50px 50px 0px 0px;
+        transition: all 0.3s ease-in-out;
 
         h3 {
             font-weight: bold;
@@ -70,6 +71,18 @@ ion-content {
                 font-weight: bold;
             }
         }
+        ion-content {
+            --keyboard-offset: 20px; /* Adds space when keyboard opens */
+            padding-bottom: 20px;
+        }
+        
+        /* Fix for iOS keyboard overlapping issue */
+        @media (max-width: 768px) {
+            .slide2 {
+                height: auto;
+                min-height: 50vh; /* Adjust based on needs */
+            }
+        }
     }
 
     .footer {
@@ -82,7 +95,7 @@ ion-content {
 
         a {
             img {
-                width: 30px;
+                width: 50px;
 
             }
         }

@@ -1,88 +1,121 @@
-ion-content{
-    width: 100%;
-    height: 90vh;
-    overflow: hidden;
-    --background: linear-gradient(to right, #7cca8f, #6cc07e);
-    .title {
+ion-header {
+  box-shadow: none;
+
+  ion-toolbar {
+      --background: #7cca8f;
+      color: #fff;
+
+      ion-button {
+          --color: #fff;
+      }
+  }
+}
+
+ion-content {
+  .profileBox {
       width: 100%;
-      height: 50px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      // text-align: center;
-      ion-icon{
-          font-size: 18px;
-          font-weight: bold;
-          margin-left: 20px;
-          color: #fff;
-      }
-      p {
-          font-size: 16px;
-          font-weight: bold;
-          position:absolute;
-          margin-left: 60px;
-          color: #fff;
-      }
-  }
-  .image-container {
-    width: 200px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 20px auto;
-  }
-  
-  img {
-    width: 100px;
-    height: 100px;
-    margin-top: 55px;
-    border-radius: 100%;
-  }
-    .account-section{
-        width: 100%;
-        height: auto;
-        padding: 0px 15px;
-        background-color:#fff;
-        margin-top: 0vh;
-        border-radius: 40px 40px 0px 0px;
-        // .image-container {
-        //     width: 200px;
-        //     text-align: center;
-        //     display: flex;
-        //     justify-content: center;
-        //     align-items: center;
-        //     flex-direction: column;
-        //     margin: 20px auto;
-        //   }
-          
-        //   img {
-        //     width: 100px;
-        //     height: 100px;
-        //     margin-top: -55px;
-        //     border-radius: 100%;
-        //   }
-          h4{
-            font-weight: bold;
+      height: 200px;
+      background-color: #7cca8f;
+      border-radius: 0 0 50px 50px;
+      position: relative;
+
+
+      .profileImage {
+          width: 130px;
+          height: 130px;
+          border-radius: 50%;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          background-color: var(--color-white);
+          position: absolute;
+          right: 50%;
+          top: 5%;
+          transform: translate(50%, 10%);
+          border: 5px solid #28a745;
+          overflow: hidden;
+
+          img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
           }
-          span {
-            margin-top: 10px;
-            font-size: 24px;
-            color: #333;
-            font-weight: bold;
-          }          
-    }
-    h5{
+      }
+
+      ion-button {
+          position: absolute;
+          right: 50%;
+          top: 50px;
+          transform: translate(75px, 50px);
+          --background: #28a745;
+          --background-hover: #28a745;
+          --background-activated: #35b853;
+          --background-focused: #2c9644;
+          color: #fff;
+          border: 2px solid #fff;
+          --box-shadow: none;
+          border-radius: 100%;
+          box-sizing: content-box;
+          height: auto;
+      }
+  }
+
+  .account-section{
+    width: 100%;
+    height: auto;
+    padding: 0px 15px;
+    background-color:#fff;
+    margin-top: 0vh;
+    border-radius: 40px 40px 0px 0px;
+      h4{
         font-weight: bold;
-    }
-    ion-button{
-      width: 100%;
-      --font-size: 6px;
-      --background: linear-gradient(to right, #28a745, #218838);
-      
-    }
-    ion-label{
-      padding: 0px 10px;
-    }
+      }
+      span {
+        margin-top: 10px;
+        font-size: 24px;
+        color: #333;
+        font-weight: bold;
+      }
+      .slide2{
+        ion-input{
+          --highlight-color-focused: #28a745;
+        }
+      }          
+}
+
+  ion-list {
+
+      ion-input,
+      ion-select {
+          text-align: left;
+          border-bottom: 1px solid #28a745;
+          --border-color: #32a14c;
+          color: #28a745;
+          --border-color: #2ea048;
+          --highlight-color-focused: #28a745;
+          --highlight-color: #28a745;
+          margin: 16px 0 3px;
+
+
+          ion-icon {
+              color: #28a745;
+          }
+      }
+
+      p {
+          color: #b30404;
+          margin: 0 0 10px;
+      }
+
+  }
+
+  ion-button {
+      --background: #28a745;
+      --background-hover: #35b453;
+      --background-activated: #34a34e;
+      --background-focused: #1ea73e;
+      margin: 10px auto 30px;
+      display: block;
+      max-width: 300px;
+      --border-radius: 50px;
+      height: 45px;
+  }
 }
