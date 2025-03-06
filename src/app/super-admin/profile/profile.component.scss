@@ -60,8 +60,12 @@ ion-content{
             color: #6cc07e;
           }        
     }
+    ion-list{
+      border-radius: 20px;
+    }
     h5{
         font-weight: bold;
+        padding: 0px 20px;
     }
     ion-button{
       width: 100%;

@@ -1,5 +1,5 @@
 ion-content {
-    --background: #d3e7e9;
+    --background: linear-gradient(to right, #7cca8f, #6cc07e);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -16,6 +16,7 @@ ion-content {
         font-size: 18px;
         font-weight: bold;
         margin-left: 10px;
+        color: #fff;
     }
 
     p {
@@ -24,6 +25,7 @@ ion-content {
         margin-left: 20px;
         text-align: center;
         flex-grow: 1;
+        color: #fff;
     }
 }
 
