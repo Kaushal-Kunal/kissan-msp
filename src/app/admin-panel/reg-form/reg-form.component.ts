@@ -14,7 +14,7 @@ export class RegFormComponent  implements OnInit {
   ) { }
 
   ngOnInit() {
-    
+    this.loadDist()
   }
   
   loadDist(){
