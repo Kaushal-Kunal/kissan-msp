@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CrudService } from 'src/app/services/crud.service';
 
 @Component({
   selector: 'app-reg-form',
@@ -8,8 +9,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RegFormComponent  implements OnInit {
 
-  constructor() { }
+  constructor(
+    private crudservice:CrudService
+  ) { }
 
-  ngOnInit() {}
-
+  ngOnInit() {
+    
+  }
+  
+  loadDist(){
+    this.crudservice.getDistrict().subscribe((res:any)=>{
+      console.log(res);
+      
+    })
+  }
 }

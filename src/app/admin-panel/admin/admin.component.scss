@@ -2,8 +2,11 @@ ion-tabs{
     padding-top: 25px;
 }
 ion-toolbar{
-    color: #000;
+    color: #f8f3f3;
     padding-top: 50px;
+}
+ion-toolbar{
+    --background: linear-gradient(to right, #7cca8f, #6cc07e);
 }
 ion-content{
     height: calc(100vh - 140px);

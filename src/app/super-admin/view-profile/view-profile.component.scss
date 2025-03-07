@@ -10,10 +10,15 @@ ion-content{
       justify-content: space-between;
       align-items: center;
       // text-align: center;
+      ion-button{
+        width: 10%;
+        --background: #7cca8f;
+        --background-hover: #28a745;
+        --box-shadow: none;
+      }
       ion-icon{
           font-size: 18px;
           font-weight: bold;
-          margin-left: 20px;
           color: #fff;
       }
       p {
