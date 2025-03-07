@@ -1,4 +1,12 @@
 ion-content{
+    ion-searchbar{
+        --border-radius:50px
+    }
+    .excel-btn{
+        width: 100%;
+        height: auto;
+        padding: 0px 10px;
+    }
     display: flex;
     ion-card-title{
         font-size: 30px;
@@ -8,46 +16,38 @@ ion-content{
         gap: 10px;
     }
     .activity{
-        width: 100%;
-        height: 100px;
+        padding:0px 20px;
+    }
+    .report{
         padding: 0px 10px;
-        span{
-            font-size: 30px;
-            font-weight: bold;
-        }
-    }
-    .find-container{
-        width: 100%;
-        height: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 30px;
-
-        .find{
-            width: 100px;
-            height: 30px;
-            text-align: center;
-            line-height: 30px;
+        .report-list{
+            width: 100%;
+            height: 130px;
             border-radius: 20px;
-            font-size: 16px;
-            border: 1px solid silver;
-        }
-    }
-    .total-member{
-        width: 100%;
-        height: auto;
-        display: flex;
-        margin-top: 10px;
-        overflow-x: auto;
-        overflow-y: hidden; 
-        white-space: nowrap;
-        gap: 0px;
-        ion-card {
-            min-width: 176px;
-            height: 13vh;
-            border-radius: 20px;
+            margin-top: 10px;
+            display: flex;
+            padding:0px 10px;
             background-color: #f3f0ed;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease-in-out;
+
+            &:hover {
+                transform: translateY(-5px);
+            }
+            .report-txt{
+                width: 100%;
+                height: 20vh;
+                padding: 10px;
+                line-height: 25px;
+            }
+            b{
+                font-size: 15px;
+            }
+            span{
+                font-size: 12px;
+                font-family: Helvetica;
+                color: rgb(52, 133, 106);
+            }
         }
     }
 }
